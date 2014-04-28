@@ -19,6 +19,9 @@
 		F8895336190E51FA00F6A499 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F889531E190E51FA00F6A499 /* UIKit.framework */; };
 		F889533E190E51FA00F6A499 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F889533C190E51FA00F6A499 /* InfoPlist.strings */; };
 		F8895340190E51FA00F6A499 /* ToDoListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F889533F190E51FA00F6A499 /* ToDoListTests.m */; };
+		F889534A190E54B900F6A499 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8895349190E54B900F6A499 /* Main.storyboard */; };
+		F889534D190E8F1800F6A499 /* STCAddToDoItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F889534C190E8F1800F6A499 /* STCAddToDoItemViewController.m */; };
+		F8895350190E900400F6A499 /* STCToDoListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F889534F190E900400F6A499 /* STCToDoListTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,11 @@
 		F889533B190E51FA00F6A499 /* ToDoListTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ToDoListTests-Info.plist"; sourceTree = "<group>"; };
 		F889533D190E51FA00F6A499 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F889533F190E51FA00F6A499 /* ToDoListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoListTests.m; sourceTree = "<group>"; };
+		F8895349190E54B900F6A499 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F889534B190E8F1800F6A499 /* STCAddToDoItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STCAddToDoItemViewController.h; sourceTree = "<group>"; };
+		F889534C190E8F1800F6A499 /* STCAddToDoItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STCAddToDoItemViewController.m; sourceTree = "<group>"; };
+		F889534E190E900400F6A499 /* STCToDoListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STCToDoListTableViewController.h; sourceTree = "<group>"; };
+		F889534F190E900400F6A499 /* STCToDoListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STCToDoListTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +117,11 @@
 			children = (
 				F8895329190E51FA00F6A499 /* STCAppDelegate.h */,
 				F889532A190E51FA00F6A499 /* STCAppDelegate.m */,
+				F8895349190E54B900F6A499 /* Main.storyboard */,
+				F889534E190E900400F6A499 /* STCToDoListTableViewController.h */,
+				F889534F190E900400F6A499 /* STCToDoListTableViewController.m */,
+				F889534B190E8F1800F6A499 /* STCAddToDoItemViewController.h */,
+				F889534C190E8F1800F6A499 /* STCAddToDoItemViewController.m */,
 				F889532C190E51FA00F6A499 /* Images.xcassets */,
 				F8895321190E51FA00F6A499 /* Supporting Files */,
 			);
@@ -220,6 +233,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F889534A190E54B900F6A499 /* Main.storyboard in Resources */,
 				F8895325190E51FA00F6A499 /* InfoPlist.strings in Resources */,
 				F889532D190E51FA00F6A499 /* Images.xcassets in Resources */,
 			);
@@ -240,8 +254,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8895350190E900400F6A499 /* STCToDoListTableViewController.m in Sources */,
 				F8895327190E51FA00F6A499 /* main.m in Sources */,
 				F889532B190E51FA00F6A499 /* STCAppDelegate.m in Sources */,
+				F889534D190E8F1800F6A499 /* STCAddToDoItemViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
