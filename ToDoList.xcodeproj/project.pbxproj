@@ -22,6 +22,7 @@
 		F889534A190E54B900F6A499 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8895349190E54B900F6A499 /* Main.storyboard */; };
 		F889534D190E8F1800F6A499 /* STCAddToDoItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F889534C190E8F1800F6A499 /* STCAddToDoItemViewController.m */; };
 		F8895350190E900400F6A499 /* STCToDoListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F889534F190E900400F6A499 /* STCToDoListTableViewController.m */; };
+		F8C67FDF190FAA4F000F8695 /* STCToDoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C67FDE190FAA4F000F8695 /* STCToDoItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		F889534C190E8F1800F6A499 /* STCAddToDoItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STCAddToDoItemViewController.m; sourceTree = "<group>"; };
 		F889534E190E900400F6A499 /* STCToDoListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STCToDoListTableViewController.h; sourceTree = "<group>"; };
 		F889534F190E900400F6A499 /* STCToDoListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STCToDoListTableViewController.m; sourceTree = "<group>"; };
+		F8C67FDD190FAA4F000F8695 /* STCToDoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STCToDoItem.h; sourceTree = "<group>"; };
+		F8C67FDE190FAA4F000F8695 /* STCToDoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STCToDoItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 				F889534F190E900400F6A499 /* STCToDoListTableViewController.m */,
 				F889534B190E8F1800F6A499 /* STCAddToDoItemViewController.h */,
 				F889534C190E8F1800F6A499 /* STCAddToDoItemViewController.m */,
+				F8C67FDD190FAA4F000F8695 /* STCToDoItem.h */,
+				F8C67FDE190FAA4F000F8695 /* STCToDoItem.m */,
 				F889532C190E51FA00F6A499 /* Images.xcassets */,
 				F8895321190E51FA00F6A499 /* Supporting Files */,
 			);
@@ -258,6 +263,7 @@
 				F8895327190E51FA00F6A499 /* main.m in Sources */,
 				F889532B190E51FA00F6A499 /* STCAppDelegate.m in Sources */,
 				F889534D190E8F1800F6A499 /* STCAddToDoItemViewController.m in Sources */,
+				F8C67FDF190FAA4F000F8695 /* STCToDoItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,6 +460,7 @@
 				F8895345190E51FA00F6A499 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F8895346190E51FA00F6A499 /* Build configuration list for PBXNativeTarget "ToDoListTests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +469,7 @@
 				F8895348190E51FA00F6A499 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
